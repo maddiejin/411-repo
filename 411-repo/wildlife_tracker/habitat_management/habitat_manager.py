@@ -1,5 +1,6 @@
 from typing import Any, List, Optional
-
+from habitat_management.habitat import Habitat
+from animal_management.animal import Animal
 class HabitatManager:
     def __init__(self,
                  habitats: dict[int, Habitat] = {}) -> None:

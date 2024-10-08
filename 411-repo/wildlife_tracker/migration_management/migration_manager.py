@@ -1,5 +1,5 @@
 from typing import Any, List, Optional
-
+from migration_management.migration import Migration
 
 
 class MigrationManager:

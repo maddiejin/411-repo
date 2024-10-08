@@ -1,5 +1,6 @@
 from typing import Any, List, Optional
-
+from habitat_management.habitat import Habitat
+from migration_management.migration_path import MigrationPath
 
 class MigrationPath:
     def __init__(self,
