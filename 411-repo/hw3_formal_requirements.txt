@@ -1,0 +1,8 @@
+Goal: Gather feedback on the user experience, functionality, and interface of SnickerSync; in particular, on how it integrates with existing GiggleGit packages.
+Non-goal: Develop new features and functionalities beyond the existing vanilla interface in order to enhance user experience
+NFR 1: Usability. The interface must require no more than 5 clicks to implement a sync; this allowws users to quickly and constantly sync changes to their system in an intuitive way. 
+    FR 1: Isolated Sync. SnickerSync will have an isolated button for users to click in order to sync, as well as a confirmation pop-up upon clicking to mitigate any accidental syncs. 
+    FR 2: Notification. In the event of a successful sync, the tool will display a confirmation of thhe action as well as detailed information including conflicts resolved and number of files synced. 
+NFR 2: Permissions. Access will be restricted to GiggleGit users only through authentication, and more specific permissions can be manually managed by team leads based on role permissions.
+    FR 1: Authentication. Before proceeding with a sync, the tool will display an authentication tool so that users can verify their GiggleGit credentials.
+    FR 2: Role Management. Team leads will be given overarching access to SnickerSync upon authentication, and they shall be authorized to manage read, write, and administrate permissions within their team. 

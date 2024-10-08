@@ -1,0 +1,17 @@
+User Story 1: As a vanilla Git power-user that has never seen GiggleGit before, I want to be able to quickly orient myself 
+to GiggleGit such that I can easily and intuitively adapt my existing Git workflows within the system. 
+    Task : Set up Git compatibility
+        Ticket 1: Verify common Git commands work within GiggleGit with smooth and identical functionality
+        Ticket 2: Implement conflict-based merge option, in which user can toggle manually between standard and meme-based merges
+
+User Story 2: As a team lead onboarding an experienced GiggleGit user, I want to ensure the user can engage with the community through a verified platform and access a repository of user-generated content, so that they can share practices, ask questions, and draw inspiration from others' experiences.
+    Task : Build community engagement features
+        Ticket 1: Establish verified platform (Slack, discussion forum, Discord) for users to discuss and share practices and questions
+        Ticket 2: Design a repo of user-designed GiggleGit content and builds for GiggleGit users to draw inspiration and ideas from
+
+User Story 3: As a PM transitioning to GiggleGit, I want to smoothly integrate GiggleGit ino my workflows such that I can maintain previous levels of productivity and collaboration.
+    Task : Monitor success of GiggleGit integration in a scalable way
+        Ticket 1: Measure and document merge success rates, conflict resolution time, other scalable metrics
+        Ticket 2: Implement a feedback mechanism within team settings on GiggleGit to ensure continuous improvement
+
+"As a user I want to be able to authenticate on a new machine." This isn't a user story because it lacks acceptance criteria; additionally, it lacks context for the type of user and their role on GiggleGit. 
